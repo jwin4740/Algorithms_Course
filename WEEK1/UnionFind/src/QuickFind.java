@@ -46,6 +46,16 @@ public class QuickFind {
         }
 
     }
+    public static void main(String[] args) {
+        System.out.println("hello");
+        QuickFind qf = new QuickFind(10);
+        qf.printArray();
+        qf.union(1, 7);
+        qf.printArray();
+
+    }
+
+
 
 
 }

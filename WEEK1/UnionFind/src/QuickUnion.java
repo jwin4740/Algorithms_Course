@@ -48,7 +48,14 @@ public class QuickUnion {
         nums[pNum] = qNum;
 
     }
+    public static void main(String[] args) {
+        System.out.println("hello");
+        QuickUnion qu = new QuickUnion(10);
+        qu.printArray();
+        qu.union(1, 7);
+        qu.printArray();
 
+    }
 
 }
 
